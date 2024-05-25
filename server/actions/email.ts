@@ -23,7 +23,7 @@ export const sendTwoFactorTokenByEmail = async (email: string, token: string) =>
 };
 
 export const sendVerificationEmail = async (email: string, token: string) => {
-  const confirmLink = `${domain}/auth/new-verification?token=${token}`;
+  const confirmLink = `${domain}/api/auth/new-verification?token=${token}`;
 
   const mailOptions = {
     from: 'Hooks Stroe', // your verified sender email
@@ -42,7 +42,7 @@ export const sendVerificationEmail = async (email: string, token: string) => {
 };
 
 export const sendPasswordResetEmail = async (email: string, token: string) => {
-  const confirmLink = `${domain}/auth/new-password?token=${token}`;
+  const confirmLink = `${domain}/api/auth/new-password?token=${token}`;
 
   const mailOptions = {
     from: '"Hooks Store" <onboarding@yourdomain.com>', // your verified sender email
