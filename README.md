@@ -44,8 +44,8 @@ Make sure you have the following installed on your machine:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/hooks-store.git
-   cd hooks-store
+   git clone https://github.com/piyushyadav0191/Hooks-Store.git
+   cd Hooks-Store
     ```
 
 2. Install dependencies
@@ -101,6 +101,4 @@ To access the admin control panel, navigate to /admin and log in with your admin
 ## Contributing
 If you want to contribute to this project, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
